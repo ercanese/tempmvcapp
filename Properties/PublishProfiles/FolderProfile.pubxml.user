@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\EE\source\repos\dockersqlapp\dockersqlapp\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2022-06-17T12:33:28.6111624Z;False|2022-06-17T15:33:04.5596512+03:00;False|2022-06-17T15:32:28.6330118+03:00;False|2022-06-17T15:31:58.5996844+03:00;True|2022-06-16T22:36:00.5649210+03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=20.8.119.125,9090%3bDatabase=demoapp%3bUser Id=sa%3bPassword=Password123456!%3bMultipleActiveResultSets=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="dockersqlapp.Models.DemoAppContext">
+      <Value>Server=20.8.119.125,9090%3bDatabase=demoapp%3bUser Id=sa%3bPassword=Password123456!%3bMultipleActiveResultSets=true</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

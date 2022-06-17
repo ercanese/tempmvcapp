@@ -1,0 +1,17 @@
+﻿@model dockersqlapp.Models.Request
+@{
+    ViewData["Title"] = "AddRequest";
+}
+
+<div class="bg-success text-white m-5"
+    Create Request
+</div>
+
+
+<form asp-action="AddRequest" method="post"> 
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input class="form-control" asp-for="Name">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
